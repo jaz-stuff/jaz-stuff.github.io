@@ -1,0 +1,32 @@
+main {
+    width: 640pt;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+    z-index: 0;
+    padding-left: 8pt;
+    padding-right: 8pt;
+}
+
+@media (max-width: 640pt) {
+    main {
+        width: 100%;
+    }
+}
+
+
+
+.header {
+    position: sticky;
+    top: 0;
+    background-color: var(--bs-teal);
+    z-index: 1;
+    box-shadow: 0 0 8pt 0 var(--bs-dark);
+    border-bottom-left-radius: 12pt;
+    border-bottom-right-radius: 12pt;
+}
+
+
+.logo {
+    padding: 6pt;
+}
